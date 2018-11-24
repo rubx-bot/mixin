@@ -16,9 +16,8 @@ deploy:
     secure: "JkOQPAUjc50lAgNqsLr7N3jO3pj1aCkTUmfl2zB2vCHM5tNhkZd0Pij/uP8EVbh8unQ6p+O5jfu8M895kFmkRvcg6N+3rMQIvVXn8BGWN0nzy4CwB4tOOOKHK2MJuXjVOmJMJyXqv4fRpyaPvd/7fJOO0dQvV1rjHxzi7EuY32xIp5ngJOyk0oIupsNMVV5dnkLlbvtBK4/PlZn/rYFMPZRe8l1Clm4OG16cVWfNXSMIxLcf4CRxRZGoqVJGAi5Enws8vwDr//vupvtLLH+HWkOC+TVgXqk3zl96cQWOuFz3mQwIMJscAp2bJhEcLI7J0KtKw6iSEmLz4lTOM69RfPMEXIt1sKSvAlVsn5ZwnkQTlkzsUcrCJDNvG1Q06ZEII/LT+qrKXThiQ49x7nm7beysDGnvRKoULQ81HNkTVWuFprrUP6cR2TusmjdpXCJSSdD0SXqsRMVDxLQXTi6+YFCCQwP9QzRwqHt1fLtU4hQusBYH52ZLO1WNSQLVnu6EkBcwPLSUwAhs/IA273erVxAKu71ULotkODIuFN2I+Ub7GAQCm1j5J3TZhoXGfAwtg+PIsZLZ1BV26gMH7+VOtnfyMXFBBlgxSBuERttxLgNDqIVieWizSlbKjQUZVVNq5yJeLRoAgxfUfWDtIM93QCBlnVIcgwAzAUPaMIkF5Yo="
   on:
     rvm: 2.5.3
-    branch: issue-1
+    tags: true
     gemspec: rubx-mixin.gemspec
-    skip_cleanup: true
 
 notfications:
   email: false
