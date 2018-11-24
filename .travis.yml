@@ -17,6 +17,7 @@ deploy:
   on:
     rvm: 2.5.3
     tags: true
+    gemspec: rubx-mixin.gemspec
 
 notfications:
   email: false
