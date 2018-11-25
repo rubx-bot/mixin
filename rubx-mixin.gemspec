@@ -5,7 +5,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 
 Gem::Specification.new do |spec|
   spec.name          = 'rubx-mixin'
-  spec.version       = '1.0.0'
+  spec.version       = '1.0.1'
   spec.authors       = ['kacperduras']
   spec.email         = ['git@kacperduras.pl']
   spec.license       = 'CDDL'
