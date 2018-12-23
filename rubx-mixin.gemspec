@@ -25,6 +25,7 @@ Gem::Specification.new do |spec|
   spec.require_paths = ['lib']
 
   spec.add_runtime_dependency 'bundler', '~> 1.17'
+  spec.add_runtime_dependency 'coveralls', '~> 0.8'
   spec.add_runtime_dependency 'dispel', '~> 0.1' unless Gem.win_platform?
   spec.add_runtime_dependency 'minitest', '~> 5.11'
   spec.add_runtime_dependency 'mustache', '~> 1.1'
